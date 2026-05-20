@@ -1,0 +1,7 @@
+name: egfr-fasta-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas>=2.0
+  - matplotlib>=3.7

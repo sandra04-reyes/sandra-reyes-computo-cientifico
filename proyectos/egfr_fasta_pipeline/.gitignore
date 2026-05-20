@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env/
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+logs/*.log
+*.tmp
+
+# Optional: descomente si no quiere versionar datos/resultados generados
+# data/raw/*.fasta
+# data/processed/*.csv
+# results/*.txt
+# results/*.csv
+# figures/*.png

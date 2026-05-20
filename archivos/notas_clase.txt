@@ -1,0 +1,2 @@
+práctica de bioinformatica
+en la clase de hoy aprendí a crear y abri un archivo fasta del promosoma 7.
