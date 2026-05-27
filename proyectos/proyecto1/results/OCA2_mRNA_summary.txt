@@ -1,0 +1,18 @@
+Resumen del analisis FASTA
+==========================
+Tipo de secuencia: nucleotide
+Numero de registros: 1
+Longitud total: 3143
+Longitud minima: 3143
+Longitud maxima: 3143
+Longitud media: 3143.00
+GC medio (%): 52.02
+N medio (%): 0.00
+
+Composicion principal:
+  G: 825 (26.25%)
+  C: 810 (25.77%)
+  T: 798 (25.39%)
+  A: 710 (22.59%)
+  N: 0 (0.00%)
+  U: 0 (0.00%)

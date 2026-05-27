@@ -1,0 +1,22 @@
+Resumen del analisis FASTA
+==========================
+Tipo de secuencia: protein
+Numero de registros: 1
+Longitud total: 1210
+Longitud minima: 1210
+Longitud maxima: 1210
+Longitud media: 1210.00
+Peso molecular estimado medio (kDa): 134.28
+GRAVY medio: -0.316
+
+Composicion principal:
+  L: 111 (9.17%)
+  G: 85 (7.02%)
+  S: 84 (6.94%)
+  E: 77 (6.36%)
+  P: 75 (6.20%)
+  A: 72 (5.95%)
+  V: 70 (5.79%)
+  I: 69 (5.70%)
+  K: 66 (5.45%)
+  N: 66 (5.45%)

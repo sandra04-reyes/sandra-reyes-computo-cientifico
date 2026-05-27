@@ -1,0 +1,40 @@
+Inicio del pipeline: Tue May 26 19:25:33 CST 2026
+Descargando proteina EGFR desde UniProt: https://rest.uniprot.org/uniprotkb/Q04671.fasta
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   923  100   923    0     0   1522      0 --:--:-- --:--:-- --:--:--  1525
+Descargando mRNA EGFR desde NCBI EFetch: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_000275&rettype=fasta&retmode=text
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3289    0  3289    0     0   6949      0 --:--:-- --:--:-- --:--:--  6953
+
+Archivos descargados:
+  /home/sandra/computo_cientifico/proyectos/proyecto1/data/raw/OCA2_protein_Q04671.fasta
+  /home/sandra/computo_cientifico/proyectos/proyecto1/data/raw/OCA2_mRNA_NM_000275.fasta
+
+Vista rapida de la proteina:
+>sp|Q04671|P_HUMAN P protein OS=Homo sapiens OX=9606 GN=OCA2 PE=1 SV=2
+MHLEGRDGRRYPGAPAVELLQTSVPSGLAELVAGKRRLPRGAGGADPSHSCPRGAAGQSS
+WAPAGQEFASFLTKGRSHSSLPQMSSSRSKDSCFTENTPLLRNSLQEKGSRCIPVYHPEF
+ITAEESWEDSSADWERRYLLSREVSGLSASASSEKGDLLDSPHIRLRLSKLRRCVQWLKV
+MGLFAFVVLCSILFSLYPDQGKLWQLLALSPLENYSVNLSSHVDSTLLQVDLAGALVASG
+
+Vista rapida del mRNA:
+>NM_000275.3 Homo sapiens OCA2 melanosomal transmembrane protein (OCA2), transcript variant 1, mRNA
+GTTCTTACTTCGAAGGCTGTGCTCCGCTCACCATCCAGAGCGGAGGTGCGGACCTTAAACTCACTCCTGG
+AGAAAGATCTGCAAGTGCGCAGAGAGAAGACTGGCAGTGGAGCATGCATCTGGAGGGCAGAGACGGCAGG
+CGGTACCCCGGCGCGCCGGCGGTGGAGCTCCTGCAGACGTCCGTGCCCAGCGGACTCGCTGAACTTGTGG
+CCGGCAAGCGCAGGCTTCCTCGGGGAGCCGGTGGAGCTGACCCCTCGCACTCCTGCCCCAGGGGGGCTGC
+Analisis completado
+  Estadisticas: /home/sandra/computo_cientifico/proyectos/proyecto1/data/processed/OCA2_protein_sequence_stats.csv
+  Composicion:  /home/sandra/computo_cientifico/proyectos/proyecto1/data/processed/OCA2_protein_composition.csv
+  Resumen:      /home/sandra/computo_cientifico/proyectos/proyecto1/results/OCA2_protein_summary.txt
+  Figura 1:     /home/sandra/computo_cientifico/proyectos/proyecto1/figures/OCA2_protein_lengths.png
+  Figura 2:     /home/sandra/computo_cientifico/proyectos/proyecto1/figures/OCA2_protein_composition.png
+Analisis completado
+  Estadisticas: /home/sandra/computo_cientifico/proyectos/proyecto1/data/processed/OCA2_mRNA_sequence_stats.csv
+  Composicion:  /home/sandra/computo_cientifico/proyectos/proyecto1/data/processed/OCA2_mRNA_composition.csv
+  Resumen:      /home/sandra/computo_cientifico/proyectos/proyecto1/results/OCA2_mRNA_summary.txt
+  Figura 1:     /home/sandra/computo_cientifico/proyectos/proyecto1/figures/OCA2_mRNA_lengths.png
+  Figura 2:     /home/sandra/computo_cientifico/proyectos/proyecto1/figures/OCA2_mRNA_composition.png
+Fin del pipeline: Tue May 26 19:26:04 CST 2026

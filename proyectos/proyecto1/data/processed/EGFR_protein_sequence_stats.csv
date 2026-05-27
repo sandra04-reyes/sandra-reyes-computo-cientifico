@@ -1,0 +1,2 @@
+record_id,header,length,estimated_molecular_weight_Da,estimated_molecular_weight_kDa,gravy_kyte_doolittle
+1,sp|P00533|EGFR_HUMAN Epidermal growth factor receptor OS=Homo sapiens OX=9606 GN=EGFR PE=1 SV=2,1210,134276.185,134.276185,-0.3160330578512397
